@@ -1,0 +1,179 @@
+/* Write your CSS code here */
+
+.success-image {
+  width: 80px;
+}
+
+.submit-btn {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #ffffff;
+  padding: 8px 16px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #ea580c;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100vh;
+  margin-top: 7%;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 6%;
+  align-items: center;
+}
+
+.registration-heading {
+  color: #ea580c;
+  font-size: 38px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  text-align: center;
+}
+.first-name {
+  color: #475569;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.first-input {
+  color: #cbd2d9;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  padding: 6px;
+  outline: none;
+  width: 240px;
+  border: 1px solid #9aa5b1;
+  margin-bottom: 20px;
+  margin-top: 4px;
+  border-radius: 3px;
+}
+.last-input {
+  border-radius: 3px;
+  color: #cbd2d9;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  padding: 6px;
+  outline: none;
+  width: 240px;
+  border: 1px solid #9aa5b1;
+  margin-top: 6px;
+}
+
+.first-name-error-msg {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  border: 1px solid #cbd2d9;
+  color: #9aa5b1;
+  border-radius: 4px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+  border: 1px solid #ff0b37;
+  background-color: #fef2f4;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.message-error {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: 'Roboto';
+  line-height: 16px;
+  color: #ff0b37;
+}
+
+@media screen and (min-width: 768px) {
+  .message-error {
+    margin-right: auto;
+  }
+}
+
+.last-name {
+  color: #475569;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.success-container {
+  text-align: center;
+}
+.sub-success-para {
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .submit-btn {
+    width: 100%;
+  }
+  .first-input {
+    width: 260px;
+  }
+  .last-input {
+    width: 260px;
+  }
+  .message-error {
+    margin-right: left;
+  }
+}
+
+.sub-btn {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #ffffff;
+  padding: 8px 12px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #ea580c;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .registration-heading {
+    font-size: 36px;
+  }
+  .app-container {
+    justify-content: center;
+    align-items: center;
+  }
+  .submit-btn-container {
+    width: 100%;
+    text-align: center;
+  }
+  .form-container {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 46px;
+    padding-bottom: 46px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 8px;
+    margin-top: 4%;
+  }
+}
